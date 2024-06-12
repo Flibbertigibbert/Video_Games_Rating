@@ -12,8 +12,8 @@ To set up the project environment, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/BrainTumourClassification.git
-   cd BrainTumourClassification
+   git clone https://github.com/yourusername/VideoGamesRatingClassificationwithMachineLearning.git
+   cd VideoGamesRatingClassificationwithMachineLearning 
    ```
 
 2. **Create a virtual environment:**
@@ -51,9 +51,14 @@ data/
 ```
 Each subdirectory (`class1`, `class2`, etc.) contains images of brain tumours classified into respective categories.
 
-![image](https://github.com/Flibbertigibbert/Video_Games_Rating/assets/43761458/cd19a102-a48b-42c1-a2c0-b1e59deaf922)
+## Data Cleaning and Exploration
+The cleaning process involves converting a non-numeric column thats meant to be numerical back to numerical and  filling missing values in specified numerical columns with their respective means.
+
 ![image](https://github.com/Flibbertigibbert/Video_Games_Rating/assets/43761458/cd19a102-a48b-42c1-a2c0-b1e59deaf922)
 
+The plot displays a comparison of game sales between different regions (US, EU, JP) and globally over the years. The x-axis represents the years, while the y-axis represents the sales figures, presumably in millions. Different colored lines represent sales in various regions and globally: the black line for global sales, the blue line for US sales, the green line for EU sales, and the red line for Japanese (JP) sales. The legend, located outside the plot area on the right, indicates which color corresponds to which region or global sales.
+
+The plot highlights a significant increase in sales during the period from 2005 to 2010 across all regions, indicating a global boom in the gaming industry. After 2010, there is a decline in sales across all regions, which might indicate market saturation, shifts in consumer preferences, or other external factors affecting the gaming industry. The plot also shows that the US and EU contribute significantly to global sales, with the US being the largest market among the regions shown.
 
 ## Training and Testing(**Model Details:Pipeline for Categorical Feature Processing:**)
 Training Phase: A machine learning pipeline has been built to predict video game ratings
@@ -118,9 +123,10 @@ The following libraries are used in this project:
 - numpy
 - pandas
 - xgboost
-- itertools
+- pickle-mixin
+- category_encoders
 - os
-- shutil
+- scipy
 - warnings
 
 ## Contributing

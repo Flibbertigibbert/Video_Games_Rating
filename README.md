@@ -2,9 +2,15 @@
 
 **Machine Learning Problem: Video Games Rating Prediction**
 
-## Project Description
+## Problem Statement
+With the growing video game industry, predicting game ratings accurately is crucial for developers, publishers, and gamers. Current rating systems often rely on subjective evaluations and can be inconsistent. This project aims to develop a robust classification system that predicts video game ratings based on a variety of features, ensuring consistency and aiding stakeholders in making informed decisions.
 
- Dataset Link : https://www.kaggle.com/datasets/ibriiee/video-games-sales-dataset-2022-updated-extra-featThe project includes steps for setting up a virtual environment, installing necessary packages, and running a machine learning model using Python.
+## Project Description
+This project involves creating a video games rating classification system using machine learning techniques. Utilizing the comprehensive Video Games Sales Dataset (2022 updated) from Kaggle, which includes attributes such as game titles, platforms, release years, genres, publishers, sales figures, and critic and user scores, we aim to build a predictive model. The model will classify video game ratings, leveraging features engineering, data preprocessing, and advanced algorithms like XGBoost to achieve high accuracy. This system will provide valuable insights into factors influencing game ratings and support industry stakeholders in strategic planning and decision-making.
+
+ Dataset Link : https://www.kaggle.com/datasets/ibriiee/video-games-sales-dataset-2022-updated-extra-feat
+ 
+The project includes steps for setting up a virtual environment, installing necessary packages, and running a machine learning model using Python.
 
 ## Setup
 

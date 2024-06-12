@@ -9,12 +9,12 @@ with open('model_pipeline.pkl', 'rb') as file:
     model_pipeline = pickle.load(file)
 
 # Title of the application
-st.title('Rating Video Games')
+st.title('Video Games Rating')
 
 # Dropdown for Year of Release
 year_of_release = st.selectbox(
     'Year of Release',
-    list(range(2000, 2016))
+    list(range(2000, 2017))
 )
 
 # Dropdown for Genre

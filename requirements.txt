@@ -1,6 +1,7 @@
 numpy
 matplotlib
 scikit-learn
+pickle
 category_encoders
 plotly
 pandas

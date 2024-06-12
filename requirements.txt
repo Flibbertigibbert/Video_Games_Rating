@@ -1,0 +1,6 @@
+numpy
+matplotlib
+sklearn
+category_encoders
+plotly
+pandas

@@ -18,8 +18,8 @@ To set up the project environment, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/VideoGamesRatingClassificationwithMachineLearning.git
-   cd VideoGamesRatingClassificationwithMachineLearning 
+   git clone https://github.com/yourusername/Video_Games_Rating.git
+   cd Video_Games_Rating 
    ```
 
 2. **Create a virtual environment:**
